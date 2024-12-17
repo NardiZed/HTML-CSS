@@ -1,40 +1,87 @@
-body{
-    background-color: black;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
 }
-h1{
-    color: lightblue;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.header {
+    background-color: rgb(229, 206, 55);
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-p{
-    color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
+.left, .right {
+    padding: 20px;
+    background-color: rgb(146, 146, 181);
 }
-strong{
-    color: yellow;
+.left {
+    float: left;
+    width: 25%;
+    height: 65vh;
+}
+.left a{
+    color: White;
+    padding: 10px;
+}
+.right {
+    float: right;
+    width: 25%;
+    height: 65vh;
+}
+.center {
+    margin: 0 30%;
+    overflow: hidden;
+}
+.cat, .person {
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h3{
-    color: lightblue;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.footer {
+    clear: both;
+    width: 100%;
+    background-color: rgb(229, 206, 55);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
-em{
+input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 5px;
+    background-color: rgb(229, 206, 55);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+}
+.right p{
+    font-size: 14px;
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
+    font-style: oblique;
 }
-ul{
-    color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
+.right a,ol{
+    color: azure;
 }
-ol{
-    color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
+p {
+    font-size: 12px;
+    color: #555;
 }
-
-a{
-    color: red;
-    font-size: 14px;
+a {
+    color: rgb(107, 107, 193);
+}
+a:hover {
+    color: rgb(85, 85, 150);
 }
